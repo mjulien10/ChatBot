@@ -5,12 +5,12 @@ import model.Chatbot;
 public class ChatController
 {
 	
-	private Chatbot monkyBot;
+	private Chatbot Chatbot;
 	
 	ChatController()
 	{
 		
-		
+		Chatbot = new Chatbot();
 	}
 
 	public void start()
